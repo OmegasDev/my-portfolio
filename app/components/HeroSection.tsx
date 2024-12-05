@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
 export default function HeroWithNavbar() {
   const [showNavbar, setShowNavbar] = useState(false); // To toggle navbar visibility with color
@@ -52,11 +53,7 @@ export default function HeroWithNavbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
           {/* Logo */}
           <div>
-            <img
-              src="/yt-profile.png"
-              alt="Logo"
-              className="w-10 h-10 rounded-full"
-            />
+          <Image src="/yt-profile.png" alt="Example" width={60} height={60} />
           </div>
 
           {/* Hamburger Menu */}
@@ -122,7 +119,7 @@ export default function HeroWithNavbar() {
             className="text-5xl font-extrabold tracking-tight md:text-6xl"
             data-aos="fade-left"
           >
-            I'm{" "}
+            I&apos;m{" "}
             <span className="text-hero_name text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400">
               Emmanuel
             </span>
@@ -156,7 +153,7 @@ export default function HeroWithNavbar() {
             className="mt-8 px-8 py-3 bg-button_color rounded-full text-white text-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300"
             data-aos="flip-up"
           >
-            Let's Collaborate
+            Let&apos;s Collaborate
           </a>
         </div>
       </section>

@@ -21,7 +21,7 @@ export default function ContactSection() {
         <div className="mb-12">
           <h2 className="text-4xl font-bold text-[#d1d5db] mb-4 text-left">Get in Touch</h2>
           <p className="text-gray-300 text-lg mb-4 text-left">
-            Let's collaborate on something amazing. Feel free to reach out!
+            Let&apos;s collaborate on something amazing. Feel free to reach out!
           </p>
 
           {/* First line under the description - Align it to the start of the text */}
@@ -71,8 +71,8 @@ export default function ContactSection() {
             {/* About section */}
             <div className="text-left">
               <p className="text-gray-300">
-                Hi, I'm Emmanuel. A passionate developer skilled in React, Next.js, and more.
-                Let's build something awesome together!
+                Hi, I&apos;m Emmanuel. A passionate developer skilled in React, Next.js, and more.
+                Let&apos;s build something awesome together!
               </p>
             </div>
             <hr className="w-full sm:w-[90%] md:w-[80%] border-gray-400 mx-0 mb-6" />

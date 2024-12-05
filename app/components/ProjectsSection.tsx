@@ -23,7 +23,7 @@ export default function ProjectsSection() {
     {
       title: "Portfolio Website",
       description: "A modern and responsive portfolio built with React and Tailwind CSS.",
-      link: "#",
+      link: "https://omegas-porfolio.vercel.app/",
       image: "/portfolio.png",
     },
     {
